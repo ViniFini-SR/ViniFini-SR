@@ -1,6 +1,6 @@
 # Vinicios Santos
 
-Guardarei meus projetos, estudos e experimentos sobre Data Lake, OLAP, streaming de dados e as tecnologias  para Engenharia e Analytics de Dados.
+Guardarei meus projetos, estudos e experimentos sobre Data Lake, OLAP, streaming de dados e as tecnologias para Engenharia e Analytics de Dados.
 
 ---
 
@@ -18,6 +18,9 @@ No meu dia a dia trabalho e estudo tecnologias como:
 - **Trino**: engine SQL distribuída para consultas federadas sobre Data Lake.
 - **Apache Spark + Python**: processamento e manipulação de dados em larga escala.
 - **Jupyter Notebooks**: ambiente interativo para testes e análises.
+- **SQL**: Domínio avançado em SQL para consultas complexas, otimização e modelagem de dados.
+- **PL/SQL e PL/pgSQL**: Programação de stored procedures, funções e triggers em Oracle e PostgreSQL.
+- **Bancos de Dados Relacionais**: Experiência com Oracle, PostgreSQL, SQLite e MS SQL Server.
 
 ---
 
@@ -33,6 +36,9 @@ No meu dia a dia trabalho e estudo tecnologias como:
 | ![Trino](https://img.shields.io/badge/Trino-3D6BA0?logo=trino&logoColor=white)                | Query engine distribuído                     |
 | ![Spark](https://img.shields.io/badge/Spark-F88909?logo=apachespark&logoColor=white) + ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | Processamento distribuído e manipulação      |
 | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)           | Ambiente interativo para testes e análises   |
+| ![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white)               | Consultas e manipulação de dados             |
+| ![Oracle](https://img.shields.io/badge/Oracle-F80000?logo=oracle&logoColor=white)             | Banco de dados Oracle                        |
+| ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) | Banco de dados PostgreSQL                   |
 
 ---
 
@@ -47,6 +53,7 @@ Para garantir uma arquitetura robusta e eficiente, sigo estas práticas:
 - **Processamento:** Spark com Python é utilizado para manipulação de dados, integrando o catálogo Hive e acessando diretamente as tabelas Iceberg/MinIO.
 - **Query Engine:** Trino é utilizado para consultas SQL distribuídas e federadas sobre o Data Lake e outras fontes, aproveitando o catálogo do Hive e o formato Iceberg.
 - **Experimentação:** Jupyter Notebooks é o ambiente de escolha para testes, prototipação e validação de pipelines antes de produção.
+- **Bancos Relacionais:** Utilizo Oracle, PostgreSQL para armazenamento transacional, relatórios e integração com sistemas legados, aplicando otimizações e programação em PL/SQL e PL/pgSQL quando necessário.
 
 ---
 
