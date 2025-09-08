@@ -6,12 +6,12 @@ Guardarei meus projetos, estudos e experimentos sobre Data Lake, OLAP, streaming
 
 ## 🚀 Sobre mim
 
-Sou entusiasta de arquitetura de dados, processamento distribuído e soluções escaláveis para Big Data.
+Sou entusiasta de arquitetura e engenharia de dados, processamento distribuído e soluções escaláveis para Big Data.
 
 No meu dia a dia trabalho e estudo tecnologias como:
 
 - **Apache Kafka**: ingestão de dados em tempo real via streams.
-- **Apache Pinot**: OLAP eficiente para consultas analíticas rápidas.
+- **Apache Pinot**: OLAP para consultas analíticas rápidas.
 - **Apache Iceberg**: gerenciamento de tabelas transacionais no Data Lake.
 - **MinIO**: armazenamento de objetos compatível com S3 para Data Lake.
 - **Apache Hive**: catálogo central para integração entre ferramentas.
