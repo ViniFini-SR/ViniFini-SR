@@ -1,12 +1,8 @@
 # Vinicios Santos
 
-Guardarei meus projetos, estudos e experimentos sobre Data Lake, OLAP, streaming de dados e as tecnologias para Engenharia e Analytics de Dados.
+## Sobre
 
----
-
-## 🚀 Sobre mim
-
-Sou entusiasta de arquitetura e engenharia de dados, processamento distribuído e soluções escaláveis para Big Data.
+Entusiasta de arquitetura e engenharia de dados, processamento distribuído e soluções escaláveis para Big Data.
 
 No meu dia a dia trabalho e estudo tecnologias como:
 
@@ -25,7 +21,7 @@ No meu dia a dia trabalho e estudo tecnologias como:
 
 ---
 
-## 🛠️ Stack de Ferramentas
+## 🛠️ Stacks
 
 | Ferramenta                | Finalidade                                    |
 |---------------------------|-----------------------------------------------|
@@ -41,22 +37,6 @@ No meu dia a dia trabalho e estudo tecnologias como:
 | ![Oracle](https://img.shields.io/badge/Oracle-F80000?logo=oracle&logoColor=white) | Banco de dados Oracle |
 | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) | Banco de dados PostgreSQL |
 | ![Airflow](https://img.shields.io/badge/Airflow-017CEE?logo=apacheairflow&logoColor=white) | Orquestração de pipelines de dados |
-
----
-
-## 💡 Como uso cada uma
-
-Para garantir uma arquitetura robusta e eficiente, sigo estas práticas:
-
-- **Ingestão de dados:** Utilizo Kafka para ingestão contínua, com tópicos organizados e produtores/consumidores desacoplados.
-- **Armazenamento:** Persisto dados brutos e processados no MinIO, sempre em formato Iceberg para versionamento e atomicidade.
-- **Catálogo:** O Hive atua como catálogo central, facilitando integração entre Spark, Trino e demais ferramentas.
-- **OLAP:** Os dados analíticos são indexados no Pinot, permitindo consultas rápidas e em tempo real.
-- **Processamento:** Spark com Python é utilizado para manipulação de dados, integrando o catálogo Hive e acessando diretamente as tabelas Iceberg/MinIO.
-- **Query Engine:** Trino é utilizado para consultas SQL distribuídas e federadas sobre o Data Lake e outras fontes, aproveitando o catálogo do Hive e o formato Iceberg.
-- **Experimentação:** Jupyter Notebooks é o ambiente de escolha para testes, prototipação e validação de pipelines antes de produção.
-- **Bancos Relacionais:** Utilizo Oracle, PostgreSQL, SQLite e MS SQL Server para armazenamento transacional, relatórios e integração com sistemas legados, aplicando otimizações e programação em PL/SQL e PL/pgSQL quando necessário.
-- **Orquestração:** Apache Airflow para agendamento, monitoramento e gestão de workflows de dados complexos, garantindo execução confiável e tratamento de falhas.
 
 ---
 
