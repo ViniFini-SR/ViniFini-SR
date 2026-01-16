@@ -4,9 +4,7 @@
 
 Entusiasta de arquitetura e engenharia de dados, processamento distribuído e soluções escaláveis para Big Data.
 
-No meu dia a dia trabalho e estudo tecnologias como:
-
----
+No meu dia a dia trabalho e estudo tecnologias:
 
 ## 🛠️ Stacks
 
